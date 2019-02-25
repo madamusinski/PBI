@@ -1,0 +1,90 @@
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+table{
+    border-collapse: collapse;
+}
+/*
+table, th, td{
+    border: 1px solid black;
+}
+*/
+tr, th {
+    border-bottom: 1px solid #b7b7b7;
+}
+th{
+    text-align: center;
+    background-color: #182945;
+    color: #ffffff;
+}
+td{
+    text-align: center;
+}
+
+
+#container #menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333
+}
+#container #menu li{
+    float: left;
+}
+
+#container #menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#container #menu li a:hover{
+    background-color: #a09ca5;
+}
+
+#container #menu li a:active{
+    background-color: #807d83;
+}
+
+#container #search ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333
+}
+#container #search li{
+    float: left;
+    padding: 1px 5px;
+}
+
+#container #search li a{
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+#container #search li a:hover{
+    background-color: #a09ca5;
+}
+
+#container #search li a:active{
+    background-color: #807d83;
+}
+
+#container #search input{
+    background-color: #ffffff;
+    display: inline;
+    color: #000000;
+    text-align: left;
+    padding: 1px 5px;
+    text-decoration: none;
+}
+
+#container #search label{
+    color: #ffffff;
+}
